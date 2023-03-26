@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+*.core
+tags
+
 # Object files
 *.o
 *.ko

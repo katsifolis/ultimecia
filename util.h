@@ -1,0 +1,26 @@
+#pragma once
+
+#include "types.h"
+
+#define BIOS_RANGE 0
+#define BIOS_SIZE 512 * 1024
+#define BIOS_START 0xBFC00000
+
+#define MEMCONTROL_RANGE 1
+#define MEMCONTROL_SIZE 36
+#define MEMCONTROL_START 0x1F801000
+
+#define RAM_SIZE_RANGE 2
+#define RAM_SIZE_SIZE 4
+#define RAM_SIZE_START 0x1F801060
+
+#define CACHECONTROL_RANGE 3
+#define CACHECONTROL_SIZE 4
+#define CACHECONTROL_START 0xFFFE0130
+
+#define RAM_RANGE 4
+#define RAM_SIZE 2 * 1024 * 1024
+#define RAM_START 0xA0000000
+
+
+Bool UTIL_contains(u8, u32);

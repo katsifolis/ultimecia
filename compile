@@ -1,0 +1,1 @@
+cc -static -Wall -pedantic -g -std=c89 *.c
